@@ -122,5 +122,3 @@ However, props are immutable which means unchangeable. When a component needs to
   5. [React fiber Architure](https://github.com/acdlite/react-fiber-architecture)
   6. [React without ES6](https://legacy.reactjs.org/docs/react-without-es6.html)
   7. [React keys as Anti-pattern](https://robinpokorny.com/blog/index-as-a-key-is-an-anti-pattern/)
-
-
