@@ -88,6 +88,9 @@ React Fiber is the new reconciliation engine in React 16. which is responsible f
   But, nothing is better than anything. If we don't give a key, react by default assign id of that list item as it's key. 
 
   NO key << INDEX as key <<<<<< Unique id as key from data 
+  
+  1. It may break your application and display wrong data!
+  2. Generate a unique id for every item and use it as key when rendering the list.
 
 ### 11. What are props in React ? Ways to use props ?
 `Props (properties)` passed in Component are similar to the arguments passed in a js function call and received by that function as parameters.
