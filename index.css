@@ -1,42 +1,40 @@
-body {
-    box-sizing: border-box;
-    margin :0;
-    padding: 0;
-    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f7f7f7;
-  
-  }
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  border: 1px solid black;
+}
 
-  /*Assignment 1 */
-.title {
-    color : #343a40;
-    border : skyblue 1px solid;
-  }
-  .title a {
-    color : #343a40;
-  }
+.logo {
+  width: 100px;
+}
 
-  /* Assignment2 */
-.flex-container{
-    justify-content: space-around;
-    display: flex;
-    align-items: center;
-    margin-top: 5px;
+.nav-items > ul{
+  display: flex;
+  list-style-type: none;
 }
-.logoimg{
-    height: 80px;
-    width: 80px;
+
+.nav-items > ul >li {
+  padding: 10px;
 }
-.search-bar{
-    width: 50%;
-    justify-content: center;
-    display: flex;
+
+/* card */
+
+.card{
+  width: 200px;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px
 }
-.search-bar > input{
-    width: 50%;
-    height: 30%;
+
+.card > img {
+  width: 100%;
 }
-.user-icon{
-    font-size: 30px;
+
+/* resturant - list */
+
+.restranunt-list{
+  display: flex;
+  flex-wrap: wrap;
 }
 
