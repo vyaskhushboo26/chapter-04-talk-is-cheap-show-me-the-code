@@ -64,6 +64,8 @@
   we need virtual DOM for Reconciliation in React.
 `  why react is so fast bcz of reconciliation process`
 
+Virtual DOM (VDOM) is a programming concept where a copy/virtual representaion of the UI is kept in memory and synced with the "real" DOM tree by a library called React-DOM. This process is called Reconciliation. In React, a virtual DOM is associated with React elements since they are the objects representing the UI. React, however, also uses internal objects called “fibers” to hold additional information about the component tree. They may also be considered a part of “virtual DOM” implementation in React.
+
 ### 7. What is Reconciliation in react ?
 Reconciliation is a process which uses diffing algorithm to diff one tree (actually dom) from another which determines what needs to be updated and only re-renders the diff.
 
